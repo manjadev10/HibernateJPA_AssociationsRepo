@@ -282,7 +282,7 @@
 10:56:25,640 DEBUG SessionFactoryImpl:207 - Building session factory
 10:56:25,641 TRACE AbstractServiceRegistryImpl:235 - Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
 10:56:25,672 DEBUG SessionFactoryServiceRegistryImpl:91 - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
-10:56:25,673 DEBUG SessionFactoryImpl:224 - Instantiating SessionFactory with settings: {dialect=org.hibernate.dialect.PostgreSQLDialect, java.specification.version=17, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, java.class.path=D:\WORKSPACE\IntelliJ_Workspace\javaHibernate\hello-world\target\classes;C:\Users\dmanj\.m2\repository\org\hibernate\orm\hibernate-core\6.2.0.Final\hibernate-core-6.2.0.Final.jar;C:\Users\dmanj\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\dmanj\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\dmanj\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\dmanj\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\dmanj\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar;C:\Users\dmanj\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\dmanj\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\dmanj\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\dmanj\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\dmanj\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\dmanj\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\dmanj\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\dmanj\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\dmanj\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\dmanj\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\dmanj\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;C:\Users\dmanj\.m2\repository\org\postgresql\postgresql\42.6.0\postgresql-42.6.0.jar;C:\Users\dmanj\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\dmanj\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=Asia/Calcutta, java.vm.specification.version=17, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=IN, sun.boot.library.path=C:\Program Files\Java\jdk-17\bin, sun.java.command=client.HelloWorldClient, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\dmanj, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2023-07-18, java.home=C:\Program Files\Java\jdk-17, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+10:56:25,673 DEBUG SessionFactoryImpl:224 - Instantiating SessionFactory with settings: {dialect=org.hibernate.dialect.PostgreSQLDialect, java.specification.version=17, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, java.class.path=D:\WORKSPACE\IntelliJ_Workspace\javaHibernate\hello-world\target\classes;C:\Users\dmanj\.m2\repository\org\hibernate\orm\hibernate-core\6.2.0.Final\hibernate-core-6.2.0.Final.jar;C:\Users\dmanj\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\dmanj\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\dmanj\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\dmanj\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\dmanj\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar;C:\Users\dmanj\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\dmanj\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\dmanj\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\dmanj\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\dmanj\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\dmanj\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\dmanj\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\dmanj\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\dmanj\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\dmanj\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\dmanj\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;C:\Users\dmanj\.m2\repository\org\postgresql\postgresql\42.6.0\postgresql-42.6.0.jar;C:\Users\dmanj\.m2\repository\org\checkerframework\checker-qual\3.31.0\checker-qual-3.31.0.jar;C:\Users\dmanj\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=Asia/Calcutta, java.vm.specification.version=17, os.name=Windows 11, sun.java.launcher=SUN_STANDARD, user.country=IN, sun.boot.library.path=C:\Program Files\Java\jdk-17\bin, sun.java.command=client.PersistMessageObjectClient, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\dmanj, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2023-07-18, java.home=C:\Program Files\Java\jdk-17, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
 , java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, user.script=, connection.password=pass123, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.8+9-LTS-211, user.name=dmanj, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:postgresql://172.27.176.1:5432/hello-world, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.connection.driver_class=org.postgresql.Driver, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\dmanj\AppData\Local\Temp\, java.version=17.0.8, user.dir=D:\WORKSPACE\IntelliJ_Workspace\javaHibernate\hello-world, os.arch=amd64, connection.username=postgres, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, connection.driver_class=org.postgresql.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@336365bc, native.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk-17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Java\jdk-17\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.4\bin;C:\Users\dmanj\AppData\Local\Programs\Python\Python311;C:\Users\dmanj\AppData\Local\Programs\Python\Python311\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\dmanj\AppData\Local\Microsoft\WindowsApps;C:\Users\dmanj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\dmanj\AppData\Roaming\npm;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, sharing, java.vm.version=17.0.8+9-LTS-211, hibernate.bytecode.use_reflection_optimizer=true, sun.io.unicode.encoding=UnicodeLittle, connection.url=jdbc:postgresql://172.27.176.1:5432/hello-world, java.class.version=61.0}
 10:56:25,673 TRACE NormalizingIdentifierHelperImpl:62 - Normalizing identifier quoting [null]
 10:56:25,674 TRACE AbstractServiceRegistryImpl:235 - Initializing service [role=org.hibernate.cache.spi.CacheImplementor]
@@ -642,7 +642,7 @@ org.hibernate.bytecode.internal.bytebuddy.PrivateAccessorException: private acce
 	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:431)
 	at util.HibernateUtil.buildSessionFactory(HibernateUtil.java:18)
 	at util.HibernateUtil.<clinit>(HibernateUtil.java:11)
-	at client.HelloWorldClient.main(HelloWorldClient.java:10)
+	at client.PersistMessageObjectClient.main(HelloWorldClient.java:10)
 10:56:26,197 TRACE AbstractPropertyMapping:115 - Skipping duplicate registration of path [text], existing type = [basicType@5(java.lang.String,12)], incoming type = [basicType@5(java.lang.String,12)]
 10:56:26,197 TRACE AbstractPropertyMapping:115 - Skipping duplicate registration of path [id], existing type = [basicType@4(java.lang.Long,-5)], incoming type = [basicType@4(java.lang.Long,-5)]
 10:56:26,207 DEBUG creation:92 - Starting post-init callbacks
@@ -678,7 +678,7 @@ java.lang.Exception
 	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:431)
 	at util.HibernateUtil.buildSessionFactory(HibernateUtil.java:18)
 	at util.HibernateUtil.<clinit>(HibernateUtil.java:11)
-	at client.HelloWorldClient.main(HelloWorldClient.java:10)
+	at client.PersistMessageObjectClient.main(HelloWorldClient.java:10)
 10:56:26,272 DEBUG tree:46 - SQL AST Tree:
     SelectStatement {
       FromClause {
@@ -881,5 +881,486 @@ RETURNING *]
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
     22728200 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+10:17:33,114 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+10:17:34,286  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+10:17:35,458 DEBUG SQL:131 - 
+    select
+        m1_0.ID,
+        m1_0.TEXT 
+    from
+        message m1_0 
+    where
+        m1_0.ID=?
+10:17:35,473  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    29800 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    1776700 nanoseconds spent preparing 1 JDBC statements;
+    3687900 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+12:48:37,729 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+12:48:38,311  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+12:48:39,171 DEBUG SQL:131 - 
+    alter table if exists message 
+       alter column ID set data type bigint
+12:48:39,199 DEBUG SQL:131 - 
+    create table Person (
+        id bigint not null,
+        city varchar(255),
+        street varchar(255),
+        zipcode varchar(255),
+        name varchar(255) not null,
+        primary key (id)
+    )
+12:48:39,211 DEBUG SQL:131 - 
+    create sequence Person_SEQ start with 1 increment by 50
+12:48:39,247 DEBUG SQL:131 - 
+    select
+        nextval('Person_SEQ')
+12:48:39,272 DEBUG SQL:131 - 
+    insert 
+    into
+        Person
+        (city,street,zipcode,name,id) 
+    values
+        (?,?,?,?,?)
+12:48:39,286  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    27500 nanoseconds spent acquiring 1 JDBC connections;
+    28900 nanoseconds spent releasing 1 JDBC connections;
+    218700 nanoseconds spent preparing 2 JDBC statements;
+    5940800 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    21490400 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+13:12:43,946 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+13:12:44,511  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13:12:45,361 DEBUG SQL:131 - 
+    create table Guide (
+        id bigserial not null,
+        name varchar(255),
+        salary integer,
+        staff_id varchar(255) not null,
+        primary key (id)
+    )
+13:12:45,371 DEBUG SQL:131 - 
+    create table Student (
+        id bigserial not null,
+        enrollment_id varchar(255),
+        student_name varchar(255),
+        guide_id bigint,
+        primary key (id)
+    )
+13:12:45,381 DEBUG SQL:131 - 
+    alter table if exists Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+13:12:45,433 DEBUG SQL:131 - 
+    insert 
+    into
+        Guide
+        (name,salary,staff_id) 
+    values
+        (?,?,?)
+13:12:45,446 DEBUG SQL:131 - 
+    insert 
+    into
+        Student
+        (enrollment_id,guide_id,student_name) 
+    values
+        (?,?,?)
+13:12:45,456  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    41000 nanoseconds spent acquiring 1 JDBC connections;
+    22000 nanoseconds spent releasing 1 JDBC connections;
+    253400 nanoseconds spent preparing 2 JDBC statements;
+    4640100 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    3947500 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+11:36:22,461 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+11:36:23,451  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+11:36:24,894 DEBUG SQL:131 - 
+    insert 
+    into
+        Guide
+        (name,salary,staff_id) 
+    values
+        (?,?,?)
+11:36:24,908 DEBUG SQL:131 - 
+    insert 
+    into
+        Student
+        (enrollment_id,guide_id,student_name) 
+    values
+        (?,?,?)
+11:36:24,919  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    29001 nanoseconds spent acquiring 1 JDBC connections;
+    23500 nanoseconds spent releasing 1 JDBC connections;
+    252601 nanoseconds spent preparing 2 JDBC statements;
+    4368698 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    4509100 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+12:08:35,744 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+12:08:36,599  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+12:08:37,868 DEBUG SQL:131 - 
+    insert 
+    into
+        Guide
+        (name,salary,staff_id) 
+    values
+        (?,?,?)
+12:08:37,881 DEBUG SQL:131 - 
+    insert 
+    into
+        Student
+        (enrollment_id,guide_id,student_name) 
+    values
+        (?,?,?)
+12:08:37,898  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    58300 nanoseconds spent acquiring 1 JDBC connections;
+    24000 nanoseconds spent releasing 1 JDBC connections;
+    260899 nanoseconds spent preparing 2 JDBC statements;
+    4043000 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5538000 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+12:09:56,207 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+12:09:57,038  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+12:09:58,392 DEBUG SQL:131 - 
+    select
+        g1_0.id,
+        g1_0.name,
+        g1_0.salary,
+        g1_0.staff_id 
+    from
+        Guide g1_0 
+    where
+        g1_0.id=?
+12:09:58,417 DEBUG SQL:131 - 
+    select
+        s1_0.guide_id,
+        s1_0.id,
+        s1_0.enrollment_id,
+        s1_0.student_name 
+    from
+        Student s1_0 
+    where
+        s1_0.guide_id=?
+12:09:58,431  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    36900 nanoseconds spent acquiring 1 JDBC connections;
+    29400 nanoseconds spent releasing 1 JDBC connections;
+    196200 nanoseconds spent preparing 2 JDBC statements;
+    3525401 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    6072899 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 1 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+12:10:28,182 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+12:10:28,985  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+12:10:30,223 DEBUG SQL:131 - 
+    select
+        g1_0.id,
+        g1_0.name,
+        g1_0.salary,
+        g1_0.staff_id 
+    from
+        Guide g1_0 
+    where
+        g1_0.id=?
+12:10:30,248 DEBUG SQL:131 - 
+    select
+        s1_0.guide_id,
+        s1_0.id,
+        s1_0.enrollment_id,
+        s1_0.student_name 
+    from
+        Student s1_0 
+    where
+        s1_0.guide_id=?
+12:10:30,263  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    37099 nanoseconds spent acquiring 1 JDBC connections;
+    24300 nanoseconds spent releasing 1 JDBC connections;
+    277598 nanoseconds spent preparing 2 JDBC statements;
+    3478700 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    6738001 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 1 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+12:10:48,565 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+12:10:49,431  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+12:10:50,685 DEBUG SQL:131 - 
+    select
+        g1_0.id,
+        g1_0.name,
+        g1_0.salary,
+        g1_0.staff_id 
+    from
+        Guide g1_0 
+    where
+        g1_0.id=?
+12:10:50,711 DEBUG SQL:131 - 
+    select
+        s1_0.guide_id,
+        s1_0.id,
+        s1_0.enrollment_id,
+        s1_0.student_name 
+    from
+        Student s1_0 
+    where
+        s1_0.guide_id=?
+12:10:50,728  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    37900 nanoseconds spent acquiring 1 JDBC connections;
+    32601 nanoseconds spent releasing 1 JDBC connections;
+    204100 nanoseconds spent preparing 2 JDBC statements;
+    4822499 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    7487800 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 1 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+12:12:08,546 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+12:12:09,356  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+12:12:10,662 DEBUG SQL:131 - 
+    select
+        g1_0.id,
+        g1_0.name,
+        g1_0.salary,
+        g1_0.staff_id 
+    from
+        Guide g1_0 
+    where
+        g1_0.id=?
+12:12:10,701 DEBUG SQL:131 - 
+    select
+        s1_0.guide_id,
+        s1_0.id,
+        s1_0.enrollment_id,
+        s1_0.student_name 
+    from
+        Student s1_0 
+    where
+        s1_0.guide_id=?
+12:12:10,718  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    40800 nanoseconds spent acquiring 1 JDBC connections;
+    32100 nanoseconds spent releasing 1 JDBC connections;
+    242100 nanoseconds spent preparing 2 JDBC statements;
+    7079500 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    7162101 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 1 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+14:15:00,558 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+14:15:01,387  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+14:15:02,689 DEBUG SQL:131 - 
+    select
+        g1_0.id,
+        g1_0.name,
+        g1_0.salary,
+        g1_0.staff_id 
+    from
+        Guide g1_0 
+    where
+        g1_0.id=?
+14:15:02,710  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    29800 nanoseconds spent acquiring 1 JDBC connections;
+    40700 nanoseconds spent releasing 1 JDBC connections;
+    203699 nanoseconds spent preparing 1 JDBC statements;
+    1840401 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+14:17:58,651 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+14:17:59,467  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+14:18:00,831 DEBUG SQL:131 - 
+    select
+        g1_0.id,
+        g1_0.name,
+        g1_0.salary,
+        g1_0.staff_id 
+    from
+        Guide g1_0 
+    where
+        g1_0.id=?
+14:18:00,850  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    36700 nanoseconds spent acquiring 1 JDBC connections;
+    42600 nanoseconds spent releasing 1 JDBC connections;
+    110799 nanoseconds spent preparing 1 JDBC statements;
+    2364300 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+14:36:36,445 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+14:36:37,249  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+14:36:38,525 DEBUG SQL:131 - 
+    create table message (
+        ID bigserial not null,
+        TEXT varchar(255),
+        primary key (ID)
+    )
+14:36:38,536 DEBUG SQL:131 - 
+    create table Person (
+        id bigint not null,
+        city varchar(255),
+        street varchar(255),
+        zipcode varchar(255),
+        name varchar(255) not null,
+        primary key (id)
+    )
+14:36:38,550 DEBUG SQL:131 - 
+    create sequence Person_SEQ start with 1 increment by 50
+14:36:38,597  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    31299 nanoseconds spent acquiring 1 JDBC connections;
+    24200 nanoseconds spent releasing 1 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+14:57:03,702 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+14:57:04,596  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+14:57:05,613  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    42999 nanoseconds spent acquiring 1 JDBC connections;
+    22800 nanoseconds spent releasing 1 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+15:01:07,741 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+15:01:08,643  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+15:01:09,852  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    31400 nanoseconds spent acquiring 1 JDBC connections;
+    20200 nanoseconds spent releasing 1 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+15:02:32,080 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+15:02:32,960  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+15:02:34,078 DEBUG SQL:131 - 
+    create table Guide (
+        id bigserial not null,
+        name varchar(255),
+        salary integer,
+        staff_id varchar(255) not null,
+        primary key (id)
+    )
+15:02:34,095 DEBUG SQL:131 - 
+    create table Student (
+        id bigserial not null,
+        enrollment_id varchar(255),
+        student_name varchar(255),
+        guide_id bigint,
+        primary key (id)
+    )
+15:02:34,104 DEBUG SQL:131 - 
+    alter table if exists Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide
+15:02:34,167 DEBUG SQL:131 - 
+    insert 
+    into
+        Guide
+        (name,salary,staff_id) 
+    values
+        (?,?,?)
+15:02:34,194  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    31100 nanoseconds spent acquiring 1 JDBC connections;
+    23701 nanoseconds spent releasing 1 JDBC connections;
+    169200 nanoseconds spent preparing 1 JDBC statements;
+    3353900 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5191699 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+15:03:38,651 DEBUG logging:58 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+15:03:39,556  INFO SQL dialect:95 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+15:03:40,825 DEBUG SQL:131 - 
+    select
+        g1_0.id,
+        g1_0.name,
+        g1_0.salary,
+        g1_0.staff_id 
+    from
+        Guide g1_0 
+    where
+        g1_0.id=?
+15:03:40,852 DEBUG SQL:131 - 
+    insert 
+    into
+        Student
+        (enrollment_id,guide_id,student_name) 
+    values
+        (?,?,?)
+15:03:40,873  INFO StatisticalLoggingSessionEventListener:261 - Session Metrics {
+    28800 nanoseconds spent acquiring 1 JDBC connections;
+    28300 nanoseconds spent releasing 1 JDBC connections;
+    265800 nanoseconds spent preparing 2 JDBC statements;
+    3986501 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    5443600 nanoseconds spent executing 1 flushes (flushing a total of 2 entities and 1 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }

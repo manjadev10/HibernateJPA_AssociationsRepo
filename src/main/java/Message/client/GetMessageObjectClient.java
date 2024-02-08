@@ -1,11 +1,11 @@
-package client;
+package Message.client;
 
-import entity.Message;
+import Message.entity.Message;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import util.HibernateUtil;
+import Message.util.HibernateUtil;
 
-public class getObjectClient {
+public class GetMessageObjectClient {
 
     public static void main(String[] args){
         Session session = HibernateUtil.getSessionFactory().openSession();

@@ -1,11 +1,11 @@
-package client;
+package Message.client;
 
 import org.hibernate.Session;
 
-import util.HibernateUtil;
-import entity.Message;
+import Message.util.HibernateUtil;
+import Message.entity.Message;
 
-public class HelloWorldClient {
+public class PersistMessageObjectClient {
 	public static void main(String[] args) {
 				Session session = HibernateUtil.getSessionFactory().openSession();
         		session.beginTransaction();

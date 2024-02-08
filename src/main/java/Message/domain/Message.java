@@ -1,4 +1,4 @@
-package domain;
+package Message.domain;
 
 public class Message {	
 	private Long id;

@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8d8a0eb-7ca8-4aff-9765-85f1f2f447a7" name="Changes" comment="">
+    <list default="true" id="c8d8a0eb-7ca8-4aff-9765-85f1f2f447a7" name="Changes" comment="Deleted unwanted files">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Message/client/ComponentMappingClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Message/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Message/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/hello-world.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world.log" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/HelloWorldClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Message/client/PersistMessageObjectClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/UpdatingObjectClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Message/client/UpdateMessageObjectClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/getObjectClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Message/client/GetMessageObjectClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Message.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Message/domain/Message.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Message/domain/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Message/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Message/util/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,32 +41,37 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2bqg1jCm4z5wqiws8rOFhabDjBb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/WORKSPACE/IntelliJ_Workspace/javaHibernate/hello-world",
+    "last_opened_file_path": "D:/WORKSPACE/IntelliJ_Workspace/javaHibernate/hello-world/src/main/java/OneToMany",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WORKSPACE\IntelliJ_Workspace\javaHibernate\hello-world\src\main\java\OneToMany" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WORKSPACE\IntelliJ_Workspace\javaHibernate\hello-world\src\main\resources" />
       <recent name="D:\WORKSPACE\IntelliJ_Workspace\javaHibernate\hello-world\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UpdatingObjectClient">
-    <configuration name="HelloWorldClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="client.HelloWorldClient" />
-      <module name="hello-world" />
+  <component name="RunManager" selected="Application.OneToManyClient">
+    <configuration name="ComponentMappingClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.ComponentMappingClient" />
+      <module name="Hiberate_JPA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="client.*" />
@@ -63,9 +82,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdatingObjectClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="client.UpdatingObjectClient" />
-      <module name="hello-world" />
+    <configuration name="GetMessageObjectClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.GetMessageObjectClient" />
+      <module name="Hiberate_JPA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="client.*" />
@@ -76,9 +95,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getObjectClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="client.getObjectClient" />
-      <module name="hello-world" />
+    <configuration name="GetStudentsForAGuideClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.GetStudentsForAGuideClient" />
+      <module name="Hiberate_JPA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="client.*" />
@@ -88,12 +107,117 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="MappingAssociationClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.MappingAssociationClient" />
+      <module name="Hiberate_JPA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneToManyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OneToMany.OneToManyClient.OneToManyClient" />
+      <module name="Hiberate_JPA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OneToMany.OneToManyClient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Hiberate_JPA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Hiberate_JPA" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Hiberate_JPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Hiberate_JPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="Hiberate_JPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Hiberate_JPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UpdatingObjectClient" />
-        <item itemvalue="Application.getObjectClient" />
-        <item itemvalue="Application.HelloWorldClient" />
+        <item itemvalue="Application.OneToManyClient" />
+        <item itemvalue="Application.GetStudentsForAGuideClient" />
+        <item itemvalue="Application.MappingAssociationClient" />
+        <item itemvalue="Application.ComponentMappingClient" />
+        <item itemvalue="Application.GetMessageObjectClient" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +230,19 @@
       <option name="presentableId" value="Default" />
       <updated>1706947809337</updated>
     </task>
+    <task id="LOCAL-00001" summary="Deleted unwanted files">
+      <option name="closed" value="true" />
+      <created>1707281147510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707281147510</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Deleted unwanted files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted unwanted files" />
   </component>
 </project>
